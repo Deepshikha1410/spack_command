@@ -29,7 +29,10 @@ spack list
  spack spec -I hpctoolkit
  
  >>>>>command for install package<<<<<<<
- spack install -v -j40 hpctoolkit
+ spack install -v -j40 hpctoolkit       #### -v is the verbose 
  spack install -v -j40 hpctoolkit+cuda
 
 >>>>>spack install -v -j40 <<package name>>
+
+>>>>this will show the dependency of application in spack >>>>>
+spack find -d hpctoolkit    ##### -d is the dependency
